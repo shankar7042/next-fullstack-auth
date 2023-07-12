@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { toast } from "react-hot-toast";
 
-const page = () => {
+const Register = () => {
   const [state, setState] = useState({
     username: "",
     email: "",
@@ -107,4 +107,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Register;

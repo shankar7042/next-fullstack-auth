@@ -6,7 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 
-const page = () => {
+const VerifyEmail = () => {
   const searchParams = useSearchParams();
   const token = searchParams.get("token");
   const [verified, setVerified] = useState(false);
@@ -51,4 +51,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default VerifyEmail;

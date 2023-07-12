@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 
-const page = () => {
+const ResetPassword = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [disabled, setDisabled] = useState(false);
@@ -93,4 +93,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ResetPassword;

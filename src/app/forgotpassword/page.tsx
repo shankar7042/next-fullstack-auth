@@ -4,7 +4,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 
-const page = () => {
+const ForgotPassword = () => {
   const [email, setEmail] = useState("");
   const [disabled, setDisabled] = useState(false);
 
@@ -58,4 +58,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ForgotPassword;
